@@ -10,7 +10,7 @@ let tmp;
 let isSlider = false;
 let openSliderIndex = -1;
 
-if(localStorage.taskStorge != null){
+if(localStorage.taskStorage != null){
   taskArray = JSON.parse(localStorage.taskStorage);
 }else{
   taskArray = [];
